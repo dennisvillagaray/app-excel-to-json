@@ -1,0 +1,36 @@
+{
+  "name": "app-excel-to-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron src/index.js",
+    "watch": "webpack --config webpack.common.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-denaror:dennisvillagaray/app-excel-to-json.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "xlsx": "0.16.9"
+  },
+  "devDependencies": {
+    "@babel/core": "7.14.0",
+    "@babel/preset-env": "7.14.1",
+    "@babel/preset-react": "7.13.13",
+    "babel-loader": "8.2.2",
+    "css-loader": "5.2.4",
+    "electron-reload": "1.5.0",
+    "sass": "1.32.12",
+    "sass-loader": "11.1.0",
+    "style-loader": "2.0.0",
+    "webpack": "5.37.0",
+    "webpack-cli": "4.7.0"
+  }
+}
