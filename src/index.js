@@ -8,12 +8,12 @@ if (process.env.NODE_ENV !== 'production') {
   });
 }
 
-let mainWindow, newProductWindow
+let mainWindow //, newProductWindow
 
 app.on('ready', () => {
   mainWindow = new BrowserWindow({
-    width: 600,
-    height: 500,
+    width: 700,
+    height: 600,
     webPreferences: {
       nodeIntegration: false,
       worldSafeExecuteJavaScript: true,

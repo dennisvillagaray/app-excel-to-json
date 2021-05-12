@@ -6,8 +6,11 @@ export default class ListFiles extends Component {
     return (
       <div>
         <li className="list-group-item d-flex justify-content-between align-items-center">
-          {item.name}
-          {/* <span className="badge bg-primary rounded-pill">14</span> */}
+          {item.filename}
+          <button
+            className="btn btn-danger"
+            onClick={this.props.deleteFile.bind(this, item.id)}
+            type="button">Delete</button>
         </li>
       </div>
     )
